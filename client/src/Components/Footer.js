@@ -11,6 +11,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
 import CallIcon from '@mui/icons-material/Call';
 import CopyrightIcon from '@mui/icons-material/Copyright';
+import logo from '../../src/logo.png'
 
 function Footer() {
     return (
@@ -19,7 +20,7 @@ function Footer() {
 
             <Box sx={{ width: '96%', height: '50%', background: '#1F3965', display: 'flex', padding: '2%' }}>
                 <Grid container md={4} sm={12} >
-                    <Grid item md={12} sx={{ margin: '8% auto', marginBottom: '0%' }} textAlign='center'> <img style={{ background: 'white', width: '40%', padding: '2px' }} src='https://pu.tmcdn.in/defaults/landing_v3/static2/images/early-access/logo.svg' /></Grid>
+                    <Grid item md={12} sx={{ margin: '8% auto', marginBottom: '0%' }} textAlign='center'> <img style={{ background: 'white', width: '40%', padding: '2px' }} src={"logo"} /></Grid>
                     <Grid item md={12} textAlign='center' sx={{ lineHeight: '0' }} >
                         <p style={{ color: '#ffffff', margin: '0' }}>Create and sell online courses with your own
                         </p>
